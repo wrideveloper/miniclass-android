@@ -11,7 +11,7 @@
 2. **Konsep android** :alien:
     - [Sistem Operasi Android](materi/topik2/android.md)
     - [Android Evolution](materi/topik2/version.md)
-    - Lifecycle pada android
+    - [Lifecycle pada android] (materi/topik2/lifecycle.md)
     - Komponen aplikasi android
     - Konsep build tools (gradle)
 
