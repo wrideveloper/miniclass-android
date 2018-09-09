@@ -4,7 +4,7 @@
 
 1. **Instalasi dan setup** :space_invader:
     - JDK / Openjdk
-    - Android Studo
+    - Android Studio
     - Android SDK
     - Device untuk testing
 
