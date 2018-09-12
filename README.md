@@ -3,7 +3,7 @@
 ## Android development dengan Android Studio
 
 1. **Instalasi dan setup** :space_invader:
-    - JDK / Openjdk
+    - [JDK / OpenJDK](materi/topik1/jdk.md)
     - Android Studio
     - Android SDK
     - Device untuk testing
