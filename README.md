@@ -13,7 +13,7 @@
     - [Android Evolution](materi/topik2/version.md)
     - [Android Lifecycle](materi/topik2/lifecycle.md)
     - [Komponen Aplikasi Android](materi/topik2/komponen.md)
-    - Konsep build tools (gradle)
+    - [Konsep build tools (gradle) ](materi/topik2/gradle.md)
 
 3. **Fundamental** :iphone:
     - Android Intents
