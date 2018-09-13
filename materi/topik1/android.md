@@ -6,7 +6,7 @@
     - Kalian bisa download pada link dibawah ini :
         ````asd
         https://github.com/farisdx/miniclass-android
-    - Ikuti perintah dibawah ini untuk memangil direktori : 
+    - Ikuti perintah dibawah ini untuk memangil direktori download : 
         ````qwe
         cd Downloads/
     - Kemudian unzip file yang telah didownload :
@@ -20,7 +20,7 @@
         ./studio.sh
      
 - Installasi Pada Windows
-    - Ikuti cara ini [Cara install Android Studio](https://medium.com/@edwinrevolver/cara-install-android-studio-23a7c5a32f43)
+    - Ikuti cara ini [Install Android Studio](https://medium.com/@edwinrevolver/cara-install-android-studio-23a7c5a32f43)
 
 - Installasi Pada Mac
-    - Ikuti cara ini [Cara install Adnroid Studio](https://hdorgeval.gitbooks.io/setup-your-mac-to-develop-nativescript-apps/content/install-android-studio-on-mac-os-x.html)
+    - Ikuti cara ini [Install Adnroid Studio](https://hdorgeval.gitbooks.io/setup-your-mac-to-develop-nativescript-apps/content/install-android-studio-on-mac-os-x.html)
