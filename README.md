@@ -11,13 +11,12 @@
 2. **Konsep android** :alien:
     - [Sistem Operasi Android](materi/topik2/android.md)
     - [Android Evolution](materi/topik2/version.md)
-    - [Android Lifecycle](materi/topik2/lifecycle.md)
     - [Komponen Aplikasi Android](materi/topik2/komponen.md)
     - [Konsep build tools (gradle) ](materi/topik2/gradle.md)
 
 3. **Fundamental** :iphone:
-    - Android Intents
-    - Android Logging
+    - [Android Lifecycle](materi/topik2/lifecycle.md)
+    - Dasar penerapan gradle
     - Layout pada android
     - Penerapan komponen android
         - Button
@@ -25,7 +24,9 @@
         - Radio Button
         - Checkbox
         - etc
-    - Dasar penerapan gradle
+    - Android Intents  
+    - Android Logging  
+
 
 4. **Fragment Android** :calling:
     - Konsep Fragment
