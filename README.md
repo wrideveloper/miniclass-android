@@ -6,7 +6,7 @@
     - [JDK / OpenJDK](materi/topik1/jdk.md)
     - [Android Studio](materi/topik1/android.md)
     - [Android SDK](materi/topik1/sdk.md)
-    - Device untuk testing
+    - [Device untuk testing](materi/topik1/device.md)
 
 2. **Konsep android** :alien:
     - [Sistem Operasi Android](materi/topik2/android.md)
