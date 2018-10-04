@@ -17,7 +17,7 @@
 3. **Fundamental** :iphone:
     - [Android Lifecycle](materi/topik2/lifecycle.md)
     - Dasar penerapan gradle
-    - Layout pada android
+    - [Layout pada android](materi/topik2/layout.md)
     - Penerapan komponen android
         - Button
         - ListView
