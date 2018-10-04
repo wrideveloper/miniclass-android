@@ -40,7 +40,7 @@
     - Apps sederhana menggunakan [SugarORM](http://satyan.github.io/sugar/)
 
 6. **Android Sensor and Touch** :squirrel:
-    - Android camera API
+    - [Android camera API](materi/topik6/camera.md)
     - Android Sensor
     - Android Gesture
 
