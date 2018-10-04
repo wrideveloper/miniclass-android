@@ -16,7 +16,7 @@
 
 3. **Fundamental** :iphone:
     - [Android Lifecycle](materi/topik2/lifecycle.md)
-    - Dasar penerapan gradle
+    - [Dasar penerapan gradle](materi/topik3/gradle.md)
     - [Layout pada android](materi/topik2/layout.md)
     - Penerapan komponen android
         - Button
@@ -24,8 +24,8 @@
         - Radio Button
         - Checkbox
         - etc
-    - Android Intents  
-    - Android Logging  
+    - [Android Intents](materi/topik3/intents.md)  
+    - [Android Logging](materi/topik3/log.md)  
 
 
 4. **Fragment Android** :calling:

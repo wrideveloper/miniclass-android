@@ -1,0 +1,5 @@
+# Intents 
+## Apa sih intents dalam android itu ?
+in a football match, teammates pass the ball around the field with the aim of sending it into the goal of their opponent. The ball is passed from the team's goalkeeper to their defenders. Next, it finds its way to the midfielders, and if things work out as planned, one of the strikers sends it into the net of the opponent. That's assuming the goalkeeper of the other side was not able to keep it away!
+
+In Android, the ability to send messages around is made possible by the Intent object. With the help of intents, Android components can request functionality from other Android components. When you open up the Instagram app on your phone and use it to take a picture, you just made use of an intent. Intents also help communicate between parts of an app; the movement from one screen (activity) to another is made possible by intents.
