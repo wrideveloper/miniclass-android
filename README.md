@@ -5,7 +5,7 @@
 1. **Instalasi dan setup** :space_invader:
     - [JDK / OpenJDK](materi/topik1/jdk.md)
     - [Android Studio](materi/topik1/android.md)
-    - Android SDK
+    - [Android SDK](materi/topik1/sdk.md)
     - Device untuk testing
 
 2. **Konsep android** :alien:
