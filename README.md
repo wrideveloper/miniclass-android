@@ -29,7 +29,7 @@
 
 
 4. **Fragment Android** :calling:
-    - Konsep Fragment
+    - [Konsep Fragment](materi/topik4/fragment.md)
     - Penerapan fragment pada layout
     - Fragment pada toolbar
     - Swipe to refresh (optional)
