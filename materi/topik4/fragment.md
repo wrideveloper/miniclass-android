@@ -2,16 +2,31 @@
 
 ## Apa itu Android Fragments ?
 
-Android Fragment adalah sebuah bagian dari user interface atau perilaku sebuah aplikasi yang dapat ditempatkan pada activity yang memungkinkan untuk mendesain activity yang modular. atau bisa dikatakan fragment semacam sub-activity.
+![](fragment-image.jpg)
 
-- Berikut ini poin-poin penting mengenai Android fragment :
+<center>Sumber : https://devcfgc.com/two-fragments-in-one-activity-278b5ee45ae9</center>
 
-    - Sebuah fragment memiliki layout sendiri dan lifecycle callback sendiri.
-    - Dapat menambah atau mengurangi fragment dalam activity ketika activity tersebut sedang berjalan.
-    - Dapat menggabungkan beberapa fragment dalam suatu activity tunggal untuk membangun UI multi-pane.
-    - Sebuah fragment dapat digunakan dalam beberapa activity.
-    - Lifecycle Fragment berkaitan erat dengan  activity lifecycle induk yang berarti ketika activity induk dihentikan sementara maka semua fragment yang tersedia pada activity tersebut juga dihentikan.
-    - Sebuah fragment dapat menerapkan perilaku yang tidak memiliki komponen user interface.
-    Fragment ditambahkan ke dalam Android API dalam versi Honeycomb Android versi API 11.
+Fragment merupakan sebuah reuseable class yang mengimplement beberapa fitur sebuah Activity. Fragment dibuat sebagai bagian dari suatu UI. Sebuah fragment harus berada di dalam sebuah activity, mereka tidak dapat berjalan sendiri tanpa adanya activity tempat mereka menempel.
 
-[Lebih Lengkapnya .. ](https://developer.android.com/guide/components/fragments)
+Untuk menciptakan aplikasi dengan layout dinamis kita perlu menggunakan fragment. Fragment merupakan komponen yang dapat digunakan berulang-ulang untuk beberapa aktivitas UI layout. Tujuan dari fragment untuk menciptakan UI layout yang lebih dinamis dan menghindari perpindahan Activity yang berlebihan.
+
+## Kelebihan Fragment
+- Dapat menggunakan komponen view dan logic berulang ulang
+
+    Dapat dipakai untuk menampilkan data atau melakukan event tertentu dibeberapa activity berbeda
+- Orientasi Layar
+
+    Fragment memungkinkan dua orientasi(portrait/landscape) untuk menggunakan tampilan yang berbeda menggunakan elemen yang sama.
+
+## Contoh implementasi Fragment
+- [Implementasi Fragment pada TabView](https://github.com/ffadilaputra/android-nagabonar)
+- [Weather Apps](https://github.com/udacity/Sunshine-Version-2)
+
+## Referensi Belajar
+- [Advanced Android App Development - Udacity](https://www.udacity.com/course/advanced-android-app-development--ud855)
+
+
+## Sumber Referensi
+- https://developer.android.com/guide/components/fragments
+- https://devcfgc.com/two-fragments-in-one-activity-278b5ee45ae9
+

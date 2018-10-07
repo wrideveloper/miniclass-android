@@ -20,12 +20,12 @@
     - [Layout pada android](materi/topik2/layout.md)
     - Penerapan komponen android
         - Button
-        - ListView
+        - RecyclerView
         - Radio Button
         - Checkbox
         - etc
-    - [Android Intents](materi/topik3/intents.md)  
-    - [Android Logging](materi/topik3/log.md)  
+    - [Android Intents](materi/topik3/intents.md)
+    - [Android Logging](materi/topik3/log.md)
 
 
 4. **Fragment Android** :calling:
