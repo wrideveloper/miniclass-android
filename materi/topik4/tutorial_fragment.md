@@ -299,4 +299,4 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 ![](Fragments.gif )
 
 
-source : https://developer.android.com/guide/components/fragments
+source : https://www.simplifiedcoding.net/bottom-navigation-android-example/
