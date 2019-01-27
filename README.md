@@ -30,9 +30,7 @@
 
 4. **Fragment Android** :calling:
     - [Konsep Fragment](materi/topik4/fragment.md)
-    - Penerapan fragment pada layout
-    - Fragment pada toolbar
-    - Swipe to refresh (optional)
+    - [Penerapan Fragment](materi/topik4/tutorial_fragment.md)
 
 5. **Android dan SQLite** :balloon:
     - [Sqlite pada android](materi/topik5/sqlite-sugar.md)
