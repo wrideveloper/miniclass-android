@@ -296,4 +296,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 }
 ```
 - Sekarang kalian bisa coba untuk me-run aplikasinya
-![](Fragments.gif)
+![](Fragments.gif )
+
+
+source : https://developer.android.com/guide/components/fragments
