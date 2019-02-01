@@ -5,14 +5,14 @@
 Sangat mudah menggunakan Bottom Navigation didalam Projek kalian
 
 1.   Menggunakan `<android.support.design.widget.BottomNavigationView />` yang dimasukkan dalam xml layout kalian
-2.   Android Studio juga memiliki predefined template untuk membuat Bottom Navigation View ketika kalian membuat activity baru silahkan memilih Bottom Navigation Activity , sesuai yang di tampilkan di gambar dibawah
+2.   Android Studio juga memiliki predefined template untuk membuat Bottom Navigation View ketika kalian membuat activity baru silahkan memilih Bottom Navigation Activity, sesuai yang di tampilkan di gambar dibawah
 ![](activity_new.png)
-3.  Ketika membuat Project Android baru , silahkan pilih Bottom Navigation Activity sesuai template , sesuai gambar di bawah
+3.  Ketika membuat Project Android baru, silahkan pilih Bottom Navigation Activity sesuai template, sesuai gambar di bawah
 ![](project_new.png)
 
 ## Mendefinisikan Colors and Strings
-1. Saya telah membuat project Bernama **BottomNavigationExample** menggunakan **Bottom Navigation Activity**.
-2. Pertama-tama kita akan mendefinisikan warna . Kamu bisa mengubah warna sesuai yang anda inginkan . Jadi silahkan definisikan warna warna anda pada **colors.xml** yang terletak pada `res/values/colors.xml`. Seperti berikut 
+1. Buatlah project bernama **BottomNavigationExample** yang menggunakan **Bottom Navigation Activity**.
+2. Pertama-tama kita akan mendefinisikan warna. Kamu bisa mengubah warna sesuai yang kamu inginkan, jadi silahkan definisikan warna warna kamu pada file **colors.xml** yang terletak di `res/values/colors.xml` seperti pada kode berikut :
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
@@ -23,7 +23,7 @@ Sangat mudah menggunakan Bottom Navigation didalam Projek kalian
     <color name="colorNavText">#01294b</color>
 </resources>
 ```
-3. Sekarang waktunya untuk **strings.xml** yang terletak pada `res/values/string.xml` dan definisikan string anda . Seperti berikut
+3. Selanjutnya untuk merubah string yang berada didalam Bottom Navigation, anda harus merubah file **strings.xml** yang terletak di `res/values/string.xml` seperti pada kode berikut :
 ```xml
 <resources>
  
@@ -39,7 +39,7 @@ Sangat mudah menggunakan Bottom Navigation didalam Projek kalian
 
 ## Customizing Bottom Navigation View
 
-1. Sekarang ubahlah `activity_main.xml` dan modifikasi seperti berikut
+1. Sekarang anda harus menuju `activity_main.xml` dan modifikasi file seperti berikut :
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -73,14 +73,14 @@ Sangat mudah menggunakan Bottom Navigation didalam Projek kalian
 
 </android.support.constraint.ConstraintLayout>
 ```
-Ingat untuk `<android.support.design.widget.BottomNavigationView />` kita bisa menggunakan perintah - perintah berikut ini :
-    
--  `app:itemIconTint` : untuk mendifinisikan warna ikon item
--  `app:itemTextColor` : untuk mendifinisikan warna teks item
--  `android:background` : untuk mendifinisikan warna background dari Bottom Navigation View
+Dapat anda ketahui bahwa, `<android.support.design.widget.BottomNavigationView />` memiliki perintah-perintah seperti berikut ini :
+
+-  `app:itemIconTint`: untuk mendifinisikan warna ikon item
+-  `app:itemTextColor`: untuk mendifinisikan warna teks item
+-  `android:background`: untuk mendifinisikan warna background dari Bottom Navigation View
 -  `app:menu` : untuk mendifinisikan menu yang akan kita tampilkan di Bottom Navigation View
 
-Sekarang jika kalian sudah membuat projek menggunakan **Bottom Navigation Activity template** , file menu bernama **navigation.xml** ( `res/menu/navigation.xml` ) akan dibuat .  Jika tidak dibuat secara maka kalian dapat melakukan secara manual dengan membuat file bernama navigation.xml didalam folder `res/menu/navigation.xml`
+Sekarang jika kalian sudah membuat projek menggunakan **Bottom Navigation Activity template**, file menu bernama **navigation.xml** ( `res/menu/navigation.xml` ) akan dibuat.  Jika tidak dibuat secara automatis maka kalian dapat melakukan secara manual dengan membuat file bernama navigation.xml didalam folder `res/menu/navigation.xml`
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
@@ -101,9 +101,9 @@ Sekarang jika kalian sudah membuat projek menggunakan **Bottom Navigation Activi
         android:title="@string/title_notifications" />
 </menu>
 ```
- - Jadi , kode diatas akan membuat tampilan layout pada Main Activity seperti berikut
+ - Jadi, kode diatas akan membuat tampilan layout pada Main Activity seperti berikut
     ![](fragment_ui.png)
-- Jika kalian menggunakan predefined template untuk menggunakan Bottom Navigation View , maka kalian akan memliki beberapa baris kode yang berada dalam `MainActivity.java` secara default . Kita akan menghapus kode - kode itu dan mengganti MainActivity sesuai yang ditampilkan pada baris kode dibawah
+- Jika kalian menggunakan predefined template untuk menggunakan Bottom Navigation View, maka kalian akan memliki beberapa baris kode yang berada dalam `MainActivity.java` secara default. Kita akan menghapus kode-kode itu dan mengganti MainActivity sesuai yang ditampilkan pada baris kode dibawah :
 ```Java
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
