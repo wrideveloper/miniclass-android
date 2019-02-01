@@ -119,11 +119,11 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ## Membuat Fragments
-    Untuk setiap View kita membutuhkan file layout (xml) dan file class (Java) . Karena kita memiliki 3 buah view / tampilan maka kita harus membuat 3 layout (xml) file dan 3 file java . Setiap kelas dan file hampir sama karena kita hanya mencoba untuk mengganti simple TextView di tampilan
+    Untuk setiap View kita membutuhkan file layout (xml) dan file class (Java). Karena kita memiliki 3 buah view atau tampilan maka kita harus membuat 3 layout (xml) file dan 3 file java. Setiap class dan file hampir sama karena kita hanya mencoba untuk mengganti simple TextView di tampilan
 
 ### Membuat Layout Resource Files (xml)
 - Buatlah **fragment_home.xml, fragment_dashboard.xml dan fragment_notifications.xml**
-- Semua file akan memiliki kode berikut ini 
+- Sesuaikan kode pada file anda seperti berikut ini :
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
 
 ### Membuat Fragments (Java)
 - Sekarang buatlah java class bernama **HomeFragment.java, DashboardFragment.java dan NotificationsFragment.java**
-- Semua file akan memiliki kode berikut ini 
+- Sesuaikan kode pada file anda seperti berikut ini :
 ```java
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -165,8 +165,8 @@ public class HomeFragment extends Fragment {
 
 ## Switching Fragments
 
-- Sekarang kita akan mengganti tampilan atau fragments ketika menu bottom navigation di klik , kita juga harus menginisialisasi fragment dimana HomeFragment dalam kasus ini
-- Pertama kita akan membuat method untuk melakukan perpindahan fragment. Method tersebut akan kita beri nama `loadFragment()`
+- Sekarang kita akan mengganti tampilan atau fragments ketika menu bottom navigation di klik, kita juga harus menginisialisasi fragment dimana HomeFragment dalam kasus ini
+- Pertama, kita membuat method untuk melakukan perpindahan fragment. Method tersebut akan kita beri nama `loadFragment()`
 ```Java
    private boolean loadFragment(Fragment fragment) {
         //switching fragment 
@@ -180,7 +180,7 @@ public class HomeFragment extends Fragment {
         return false;
     }
 ```
-- Lalu kita akan panggil method diatas dalam `onCreate()` untuk memuat fragment default 
+- Lalu kita panggil method diatas dalam `onCreate()` untuk memuat fragment default 
 ```Java
   @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -195,13 +195,13 @@ public class HomeFragment extends Fragment {
         navigation.setOnNavigationItemSelectedListener(this);
     }
 ```
-- Sekarang kita melakukan implement terhadap `OnNavigationItemSelectedListener`interface di dalam class activity
-contoh : 
+- Sekarang kita melakukan implement terhadap `OnNavigationItemSelectedListener` interface didalam class activity
+contoh :
 ```Java
 //implement the interface OnNavigationItemSelectedListener in your activity class
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 ```
-- Dengan antarmuka (implement) di atas kita akan mendapatkan method, dan itu akan dipanggil setiap kali kita akan mengetuk opsi dari Bottom Navigation View.
+- Dengan antarmuka(implement) diatas, kita akan mendapatkan method dan dipanggil setiap kali kita akan mengetuk opsi dari Bottom Navigation View.
 ```Java
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         return true; 
     }
 ```
-- Dari method diatas kita akan mengganti fragmentnya
+- Dari method diatas kita akan mengganti fragmentnya, seperti pada kode berikut :
 ```Java
 @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -233,7 +233,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     }
 ```
 
-- Jadi kode final dari **MainActivity.java** sebagai berikut
+- Jadi kode final dari **MainActivity.java** dapat disesuaikan sebagai berikut :
 ```Java
 
 import android.os.Bundle;
@@ -295,7 +295,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     }
 }
 ```
-- Sekarang kalian bisa coba untuk me-run aplikasinya
+- Sekarang kalian bisa coba untuk menjalankan aplikasinya(run apps) :
 ![](Fragments.gif )
 
 
