@@ -34,6 +34,7 @@
 
 5. **Android dan SQLite** :balloon:
     - [Sqlite pada android](materi/topik5/sqlite-sugar.md)
+    - [Penerapan Sqlite pada android](materi/topik5/implementasi-sqlite.md)
     - Setup project menggunakan [SugarORM](materi/topik5/setup-android-sugar.md)
     - Apps sederhana menggunakan [SugarORM](http://satyan.github.io/sugar/)
 
