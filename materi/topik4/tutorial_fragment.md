@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ## Membuat Fragments
-    Untuk setiap View kita membutuhkan file layout (xml) dan file class (Java) . Karena kita memiliki 3 buah view / tampilan maka kita harus membuat 3 layout (xml) file dan 3 file java . Setiap kelas dan file hampir sama karena kita hanya mencoba untuk mengganti simple TextView di tampilan
+Untuk setiap View kita membutuhkan file layout (xml) dan file class (Java) . Karena kita memiliki 3 buah view / tampilan maka kita harus membuat 3 layout (xml) file dan 3 file java . Setiap kelas dan file hampir sama karena kita hanya mencoba untuk mengganti simple TextView di tampilan
 
 ### Membuat Layout Resource Files (xml)
 - Buatlah **fragment_home.xml, fragment_dashboard.xml dan fragment_notifications.xml**
