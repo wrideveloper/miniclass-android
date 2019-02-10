@@ -24,9 +24,11 @@ ListView adalah View Group yang ditampilkan secara list dan dapat digulung(scrol
 </FrameLayout>
 ```
   Elemen `<ListView/>` pada *preview design* akan terlihat seperti gambar dibawah ini : 
+  
   ![](Gambar01.PNG)
   
 3. Selanjutnya, buat XML baru dengan nama `list_layout.xml`, dengan target seperti :
+
 ![](Gambar02.PNG)
 
 Berikut kode yang dapat diisikan pada XML anda : 
