@@ -4,8 +4,6 @@ Android adalah sistem operasi berbasis Linux yang dirancang untuk perangkat berg
 
 # Android Evolution
 
-## Android Codenames
-
 Sebuah sistem pasti mengalami yang nama evolusi atau bisa disebut mengalami perkembangan, begitu juga Android. Namun, ada yang berbeda dari penamaan dari Android. Apa yang membuat Android berbeda? Android menamai versi dari setiap Android secara alfabetis yang diinspirasi oleh nama hidangan penutup. 
 
 Penamaan dengan hidangan penutup tersebut hanya bertahan hingga versi 9. Saat Android 10 dirilis, pengembang tidak lagi menggunakan makanan pencuci mulut dan hanya menggunakan huruf Alfabet.
