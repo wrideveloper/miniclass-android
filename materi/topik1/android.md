@@ -2,7 +2,7 @@
 
 Android adalah sistem operasi berbasis Linux yang dirancang untuk perangkat bergerak, seperti _smartphone_ dan komputer tablet. Android awalnya dikembangkan oleh Android, Inc. dengan dukungan finansial dari Google yang kemudian membelinya pada tahun 2005. Pada perkembangan lebih lanjut, Google mengembangkan Android TV, Android Auto. serta Wear OS (smartwatch).
 
-# Android Evolution
+## Android Evolution
 
 Sebuah sistem pasti mengalami yang nama evolusi atau bisa disebut mengalami perkembangan, begitu juga Android. Namun, ada yang berbeda dari penamaan dari Android. Apa yang membuat Android berbeda? Android menamai versi dari setiap Android secara alfabetis yang diinspirasi oleh nama hidangan penutup. 
 
