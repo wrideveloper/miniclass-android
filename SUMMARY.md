@@ -1,56 +1,43 @@
 # Summary
 
-- [Pemrograman Mobile](README.md)
+- [Introduction](README.md)
 
-## 1. Instalasi dan setup
+## 1. Persiapan Android
 
-- [JDK / OpenJDK](materi/topik1/jdk.md)
-- [Android Studio](materi/topik1/android.md)
-- [Android SDK](materi/topik1/sdk.md)
-- [Device untuk testing](materi/topik1/device.md)
+- [Sistem Operasi Android](materi/topik1/android.md)
+- [Install Android Studio](materi/topik1/android_studio.md)
+- [Tour Android Studio](materi/topik1/tour.md)
+- [Device untuk Testing](materi/topik1/device.md)
+- [Build Apk](materi/topik1/build_apk.md)
+- [Gradle](materi/topik1/gradle.md)
+- [Android Manifest](materi/topik1/manifest.md)
 
-## 2. Konsep android
+## 2. Komponen - Komponen Android
 
-- [Sistem Operasi Android](materi/topik2/android.md)
-- [Android Evolution](materi/topik2/version.md)
-- [Komponen Aplikasi Android](materi/topik2/komponen.md)
-- [Konsep build tools (gradle) ](materi/topik2/gradle.md)
+- [Komponen View](materi/topik2/view.md)
+- [Layout pada Android](materi/topik2/layout.md)
 
-## 3. Fundamental
+## 3. Android Activity
 
-- [Android Lifecycle](materi/topik2/lifecycle.md)
-- [Dasar penerapan gradle](materi/topik3/gradle.md)
-- [Layout pada android](materi/topik2/layout.md)
-- Penerapan komponen android
-- [Android Intents](materi/topik3/intents.md)
+- [Definisi Activity](materi/topik3/activity.md)
+- [Activity Lifecycle](materi/topik3/lifecycle.md)
 - [Android Logging](materi/topik3/log.md)
 
 
-## 4. Fragment & ListView Android
+## 4. Intent
 
-- [Konsep Fragment](materi/topik4/fragment.md)
-- [Penerapan Fragment](materi/topik4/tutorial_fragment.md)
-- [Penerapan ListView](materi/topik4/TutorialListView.md)
+- [Definisi Intent](materi/topik4/intent.md)
+- [Intent Implicit](materi/topik4/implicit.md)
+- [Intent Explicit](materi/topik4/explicit.md)
+- [Intent Parsing Data](materi/topik4/parsing_data.md)
 
-## 5. Android dan SQLite
+## 5. Fragment
 
-- [Sqlite pada android](materi/topik5/sqlite-sugar.md)
-- [Penerapan Sqlite pada android](materi/topik5/implementasi-sqlite.md)
-- [Setup project menggunakan SugarORM](materi/topik5/setup-android-sugar.md)
-- [Apps sederhana menggunakan SugarORM](http://satyan.github.io/sugar/)
+- [Definisi Fragment](materi/topik5/fragment.md)
+- [Penerapan Fragment](materi/topik5/penerapan_fragment.md)
 
-## 6. Android Sensor and Touch
+## 6. List
 
-- [Android camera API](materi/topik6/camera.md)
-- Android Sensor
-- Android Gesture
-
-## 7. Location Services dan Google API
-
-- Android location API
-- Google Map API
-
-## 8. Apikasi android sebagai rest client
-
-- Penerapan Retrofit
-- Firebase
+- [Definisi List](materi/topik6/list.md)
+- [ListView vs RecyclerView](materi/topik6/list_recycler.md)
+- [Layout pada RecyclerView](materi/topik6/layout_recycler.md)
