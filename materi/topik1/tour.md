@@ -13,9 +13,9 @@ Android Studio adalah Integrated Development Environment (IDE) resmi untuk penge
 </ul>
 
 ## User Interface Android Studio
-![User Interface Android Studio](https://user-images.githubusercontent.com/52988155/108476753-fe44a480-72c4-11eb-971d-b3e8bc4610d6.png)
+![User Interface Android Studio](../images/1-edit.png)
 <br>
-![User Interface Android Studio](https://user-images.githubusercontent.com/52988155/108476797-0bfa2a00-72c5-11eb-8b39-448ae730b6f7.png)
+![User Interface Android Studio](../images/3-edit.png)
 
 <ol>
   <li>Menu Bar, berisi perintah dan opsi yang dapat dipilih untuk mengeksekusi suatu perintah.</li>
