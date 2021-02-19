@@ -73,9 +73,3 @@
 * Android Studio akan terbuka dan siap digunakan.
 
 ![](https://user-images.githubusercontent.com/52988155/107881033-d647f080-6f14-11eb-94b1-0f131f9230c0.png)
-
-
-
-Referensi:  
-Bahan ajar Digital Talent Scholarship schema Junior Mobile Programmer 2019.
-
