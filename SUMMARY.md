@@ -7,7 +7,7 @@
 - [Sistem Operasi Android](materi/topik1/android.md)
 - [Install Android Studio](materi/topik1/android_studio.md)
 - [Tour Android Studio](materi/topik1/tour.md)
-- [Device untuk Testing]
+- Device untuk Testing
   - [Emulator](materi/topik1/emulator.md)
   - [Real Device](materi/topik1/real_device.md)
 - [Build Apk](materi/topik1/build_apk.md)
