@@ -1,2 +1,0 @@
-# ListView vs RecyclerView
-

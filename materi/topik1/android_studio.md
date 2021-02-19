@@ -1,4 +1,4 @@
-# Install Android Studio
+# Install Android Studio for Windows
 
 * Download file installasi Android Studio melalui link berikut: [https://developer.android.com/studio/](https://developer.android.com/studio/)
 * Klik tombol DOWNLOAD ANDROID STUDIO
@@ -36,7 +36,7 @@
 
 * Ketika proses installasi selesai, silahkan klik Next.
 
-![Installasi selesai](https://user-images.githubusercontent.com/52988155/107881015-d0eaa600-6f14-11eb-9be8-db7e5eda1cc9.png)\)
+![Installasi selesai](https://user-images.githubusercontent.com/52988155/107881015-d0eaa600-6f14-11eb-9be8-db7e5eda1cc9.png))
 
 * Setelah itu akan tampil yang menunjukkan bahwa Android Studio sudah selesai diinstall pada komputer. Silahkan checklist **Start Android Studio** dan klik Finish untuk menjalankan Android Studio dan menyelesaikan proses installasi.
 
@@ -73,4 +73,3 @@
 * Android Studio akan terbuka dan siap digunakan.
 
 ![](https://user-images.githubusercontent.com/52988155/107881033-d647f080-6f14-11eb-94b1-0f131f9230c0.png)
-
