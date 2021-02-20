@@ -1,45 +1,45 @@
-# Summary
+# Table of contents
 
-- [Introduction](README.md)
+* [Introduction](README.md)
 
 ## Persiapan Android
 
-- [Sistem Operasi Android](materi/topik1/android.md)
-- [Install Android Studio](materi/topik1/android_studio.md)
-- [Tour Android Studio](materi/topik1/tour.md)
-- Device untuk Testing
-  - [Emulator](materi/topik1/emulator.md)
-  - [Real Device](materi/topik1/real_device.md)
-- [Build Apk](materi/topik1/build_apk.md)
-- [Gradle](materi/topik1/gradle.md)
-- [Android Manifest](materi/topik1/manifest.md)
+* [Sistem Operasi Android](persiapan-android/android.md)
+* [Install Android Studio](persiapan-android/android_studio.md)
+* [Tour Android Studio](persiapan-android/tour.md)
+* [Device untuk Testing](persiapan-android/device-untuk-testing/README.md)
+  * [Emulator](persiapan-android/device-untuk-testing/emulator.md)
+  * [Real Device](persiapan-android/device-untuk-testing/real-device.md)
+* [Build Apk](persiapan-android/build-apk.md)
+* [Gradle](persiapan-android/gradle.md)
+* [Android Manifest](persiapan-android/manifest.md)
 
 ## Komponen - Komponen Android
 
-- [Komponen View](materi/topik2/view.md)
-- [Layout pada Android](materi/topik2/layout.md)
+* [Komponen View](komponen-komponen-android/komponen-view.md)
+* [Layout pada Android](komponen-komponen-android/layout.md)
 
 ## Android Activity
 
-- [Definisi Activity](materi/topik3/activity.md)
-- [Activity Lifecycle](materi/topik3/lifecycle.md)
-- [Android Logging](materi/topik3/log.md)
-
+* [Definisi Activity](android-activity/definisi-activity.md)
+* [Activity Lifecycle](android-activity/activity-lifecycle.md)
+* [Android Logging](android-activity/log.md)
 
 ## Intent
 
-- [Definisi Intent](materi/topik4/intent.md)
-- [Intent Implicit](materi/topik4/implicit.md)
-- [Intent Explicit](materi/topik4/explicit.md)
-- [Intent Parsing Data](materi/topik4/parsing_data.md)
+* [Definisi Intent](intent/definisi-intent.md)
+* [Intent Implicit](intent/intent-implicit.md)
+* [Intent Explicit](intent/intent-explicit.md)
+* [Intent Parsing Data](intent/intent-parsing-data.md)
 
 ## Fragment
 
-- [Definisi Fragment](materi/topik5/fragment.md)
-- [Penerapan Fragment](materi/topik5/penerapan_fragment.md)
+* [Definisi Fragment](fragment/definisi-fragment.md)
+* [Penerapan Fragment](fragment/penerapan-fragment.md)
 
 ## List
 
-- [Definisi List](materi/topik6/list.md)
-- [ListView vs RecyclerView](materi/topik6/list_recycler.md)
-- [Layout pada RecyclerView](materi/topik6/layout_recycler.md)
+* [Definisi List](list/definisi-list.md)
+* [ListView vs RecyclerView](list/listview-vs-recyclerview.md)
+* [Layout pada RecyclerView](list/layout-pada-recyclerview.md)
+
