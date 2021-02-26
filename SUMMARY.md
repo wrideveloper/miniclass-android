@@ -16,7 +16,7 @@
 
 ## Komponen - Komponen Android
 
-* [Komponen View](komponen-komponen-android/komponen-view.md)
+* [Komponen View & ViewGroup](komponen-komponen-android/komponen-view.md)
 * [Layout pada Android](komponen-komponen-android/layout.md)
 
 ## Android Activity
