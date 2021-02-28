@@ -10,15 +10,15 @@ Pada dasarnya semua element- element tampilan dalam aplikasi android dibangun de
 
 **View** merupakan sebuah objek yang dapat menggambarkan komponen - komponen tampilan pada layar yang mana pengguna dapat melihat dan dapat berinteraksi secara langsung. View juga sering disebut sebagai widget dalam aplikasi Android. Contoh dari komponen View adalah sebagai berikut:
 
-* TextView: komponen yang berguna untuk menampilkan text.
-* Button: komponen yang cukup penting dikarenakan dengan komponen ini pengguna dapat berinteraksi serta melakukan sesuatu dengan aplikasi android.
-* ListView : komponen untuk menampilkan informasi dalam bentuk list.
-* GridView : komponen untuk menampilkan informasi dalam bentuk grid.
-* RadioButton : komponen yang memungkinkan pengguna dapat memilih satu pilihan dari berbagai pilihan yang disediakan.
-* Checkbox : komponen yang memungkinkan pengguna dapat memilih lebih dari satu dari pilihan yang ada.
-* ImageView: komponen yang berguna untuk menampilkan gambar sehingga tampilan menjadi lebih menarik.
-* RecyclerView: komponen yang berguna untuk menampilkan data dalam jumlah yang banyak.
-* Plain Text: komponen yang berguna untuk wadah pengguna memasukkan data.
+* **TextView** : komponen yang berguna untuk menampilkan text.
+* **Button** : komponen yang cukup penting dikarenakan dengan komponen ini pengguna dapat berinteraksi serta melakukan sesuatu dengan aplikasi android.
+* **ListView** : komponen untuk menampilkan informasi dalam bentuk list.
+* **GridView** : komponen untuk menampilkan informasi dalam bentuk grid.
+* **RadioButton** : komponen yang memungkinkan pengguna dapat memilih satu pilihan dari berbagai pilihan yang disediakan.
+* **Checkbox** : komponen yang memungkinkan pengguna dapat memilih lebih dari satu dari pilihan yang ada.
+* **ImageView** : komponen yang berguna untuk menampilkan gambar sehingga tampilan menjadi lebih menarik.
+* **RecyclerView** : komponen yang berguna untuk menampilkan data dalam jumlah yang banyak.
+* **Plain Text** : komponen yang berguna untuk wadah pengguna memasukkan data.
 
 ### ViewGroup
 
