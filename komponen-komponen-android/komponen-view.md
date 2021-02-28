@@ -1,5 +1,7 @@
 # Komponen View & ViewGroup
 
+
+
 Pada dasarnya semua element- element tampilan dalam aplikasi android dibangun dengan menggunakan dua buah komponen utama, yaitu View dan Viewgroup. Dua komponen utama tersebut dapat dilihat pada jendela pallete yang ada pada Android Studio.
 
 ![Pallete pada Android Studio](../.gitbook/assets/common.png)
@@ -10,6 +12,10 @@ Pada dasarnya semua element- element tampilan dalam aplikasi android dibangun de
 
 * TextView: komponen yang berguna untuk menampilkan text.
 * Button: komponen yang cukup penting dikarenakan dengan komponen ini pengguna dapat berinteraksi serta melakukan sesuatu dengan aplikasi android.
+* ListView : komponen untuk menampilkan informasi dalam bentuk list.
+* GridView : komponen untuk menampilkan informasi dalam bentuk grid.
+* RadioButton : komponen yang memungkinkan pengguna dapat memilih satu pilihan dari berbagai pilihan yang disediakan.
+* Checkbox : komponen yang memungkinkan pengguna dapat memilih lebih dari satu dari pilihan yang ada.
 * ImageView: komponen yang berguna untuk menampilkan gambar sehingga tampilan menjadi lebih menarik.
 * RecyclerView: komponen yang berguna untuk menampilkan data dalam jumlah yang banyak.
 * Plain Text: komponen yang berguna untuk wadah pengguna memasukkan data.
