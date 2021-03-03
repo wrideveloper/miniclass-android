@@ -1,30 +1,39 @@
 # Layout pada Android
 
-![Layout pada Android](../.gitbook/assets/layout.jpg)
+Layout adalah suatu tampilan tata letak di android studio untuk mengatur penempatan text/gambar yang sudah terkonsep. Jadi layout di sini adalah bagian terpenting untuk memperindah tampilan pada aplikasi yang kita buat nyaman di lihat bagi pengguna. 
 
-Layout adalah suatu tampilan tata letak di android studio untuk mengatur penempatan text/gambar yang sudah terkonsep. Jadi layout di sini adalah bagian terpenting untuk memperindah tampilan pada aplikasi yang kita buat nyaman di lihat bagi pengguna.
+Terdapat 5 jenis layout pada android studio yang bisa digunakan untuk merancang tampilan aplikasi semenarik mungkin, yaitu:
 
-## Jenis Layout pada Android
+## Linear Layout
 
-Ada 4 jenis layout pada Android Studio : 1. **Relative Layout**
+Linear Layout merupakan jenis layout yang menyejajarkan semua komponen yang akan digunakan dalam satu arah, yaitu horizontal atau vertikal. Linear Layout dibuka dengan tag ```<LinearLayout>``` dan ditutup dengan tag ```</LinearLayout>```. Untuk menentukan arah (horizontal atau vertikal) dari Linear Layout yaitu dengan menambahkan atribut ```android:orientation``` pada tag pembuka Linear Layout.
 
-```text
-Relative layout adalah layout yang memiliki karakteristik untuk menempatkan komponen secara relatif. Pada layout ini programmer memiliki kebebasan untuk menempatkan komponen yang diinginkan.
-```
+Contoh implementasinya adalah sebagai berikut:
 
-1. **Linear Layout**
 
-   Linear Layout adalah layout yang menempatkan komponen secara horizontal atau vertical, bergantung pada kode yang digunakan.
+## Relative Layout
 
-2. **Table Layout**
+Relative Layout merupakan jenis layout yang mana untuk pengaturan layoutnya secara relative (bebas) sehingga tidak sebatas horizontal atau vertikal saja. Untuk kode xml dari Relative Layout sendiri dibuka dengan tag ```<RelativeLayout>``` dan ditutup dengan tag ```</RelativeLayout>```.
 
-   Table Layout adalah layout yang menempatkan komponen atau mengatur tampilan berdasarkan kolom dan baris.
+Contoh implementasinya adalah sebagai berikut:
 
-3. **Frame Layout**
 
-   Frame Layout adalah layout yang menempatkan komponen dengan cara menumpuk komponen-komponen yang ada hingga menutupi komponen yang lain.
+## Table Layout
 
-**Baca materi selengkapnya di :**
+Table Layout merupakan jenis layout yang digunakan untuk merancang tampilan menyerupai tabel yang mana terdiri dari baris dan kolom. Meskipun namanya Table Layout, layout ini tidak akan menampilkan garis kolom, baris, atau sel. Layout ini dibuka dengan tag ```<TableLayout>``` dan ditutup dengan tag ```</TableLayout>```.
 
-[https://medium.com/@Hendrawanss/jenis-jenis-layout-pada-android-studio-331e21d24872](https://medium.com/@Hendrawanss/jenis-jenis-layout-pada-android-studio-331e21d24872)
+Contoh implementasinya adalah sebagai berikut:
 
+
+## Frame Layout
+
+Frame Layout merupakan jenis layout yang dipergunakan jika menginginkan tampilan dengan komponen tumpang tindih. Misalnya ialah memasukkan komponen Button pada komponen Image. Tag pembuka dari layout ini yaitu ```<FrameLayout>``` dan penutupnya adalah ```</FrameLayout>```.
+
+Contoh implementasinya adalah sebagai berikut:
+
+
+## Constraint Layout
+
+Constraint Layout adalah jenis layout terbaru di android studio. Constraint Layout sendiri merupakan pengembangan dari Linear Layout. Dengan menggunakan layout ini kita dapat membuat sebuah tampilan aplikasi yang lebih responsif dan powerfull. Lebih resposif dan powerfull dikarenakan cara kerja layout ini adalah dengan saling bergantungan antar komponen.
+
+Contoh implementasinya adalah sebagai berikut:
