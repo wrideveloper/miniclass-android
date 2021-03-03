@@ -28,7 +28,7 @@ Pada dasarnya semua element- element tampilan dalam aplikasi android dibangun de
 * LinearLayout
 * FrameLayout
 * TableLayout
-* ScrollView
+* RelativeLayout
 
 Untuk penjelasan mengenai ViewGroup sendiri akan dijelaskan pada materi selanjutnya.
 
