@@ -3,11 +3,13 @@
 Layout adalah suatu tampilan tata letak di android studio untuk mengatur penempatan text/gambar yang sudah terkonsep. Jadi layout di sini adalah bagian terpenting untuk memperindah tampilan pada aplikasi yang kita buat nyaman di lihat bagi pengguna. 
 
 Terdapat 5 jenis layout pada android studio yang bisa digunakan untuk merancang tampilan aplikasi semenarik mungkin, yaitu:
-1. Linear Layout
-2. Relative Layout
-3. Table Layout
-4. Frame Layout
-5. Constraint Layout
+<ul>
+  <li>Linear Layout</li>
+  <li>Relative Layout</li>
+  <li>Table Layout</li>
+  <li>Frame Layout</li>
+  <li>Constraint Layout</li>
+</ul>
 
 
 ## Linear Layout
