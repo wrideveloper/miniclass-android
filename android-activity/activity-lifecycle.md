@@ -14,3 +14,54 @@ Pemahaman yang baik tentang daur hidup _activity_ akan membuat implementasi ranc
 * `onRestart()` adalah kondisi saat _Activity_ kembali dibuka oleh pengguna.
 * `onDestroy()` adalah kondisi saat _Activity_ dihancurkan pada memori.
 
+**Stack\(Last In, First Out \(LIFO\)\) Pada Activity**
+
+Perpindahan _Activity_ menggunakan konsep _Stack_ atau Tumpukan yang ada pada Struktur Data. Konsepnya sama seperti Tumpukan pada dunia nyata.
+
+Misalnya Kamu sedang melakukan kegiatan bersih-bersih halaman rumahmu, Kamu diminta untuk menyusun ulang Batako-batako yang ada di halaman rumahmu. Tentu saja untuk menghemat ruang, batako tersebut akan Kamu susun secara bertumpuk. Ketika Kamu sedang menumpuk batako, operasi pada _Stack_ yang Kamu lakukan adalah **`Push`**, yaitu meletakkan batako baru di tumpukan batako yang sudah ada. Sedangkan ketika Kamu ingin mengambil atau mengeluarkan batako, pastinya yang akan Kamu ambil adalah yang **paling atas** terlebih dahulu. Operasi tersebut, jika pada _Stack_ disebut **`Pop`**.
+
+Konsep itulah yang digunakan di _Activity_ Android. Untuk penjelasan lebih lengkapnya, Kamu bisa melihat ilustrasi di bawah ini:
+
+![](../.gitbook/assets/image%20%283%29.png)
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Gambar 1</b>
+      </th>
+      <th style="text-align:left">Gambar 2</th>
+      <th style="text-align:left">Gambar 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>Aktif: Activity 1</p>
+        <p><b>onCreate()</b> &#x2192; <b>onStart()</b> &#x2192; <b>onResume()</b>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Aktif: Activity 2</p>
+        <p>Stack append: Activity 2 [ <b>onCreate()</b> &#x2192; <b>onStart()</b> &#x2192; <b>onResume() </b>]</p>
+      </td>
+      <td style="text-align:left">
+        <p>Activity 1</p>
+        <p><b>onStart()</b> &#x2192; <b>onRestart()</b> &#x2192; <b>onResume()</b>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Aksi: Klik Button1 (Pindah)</td>
+      <td style="text-align:left">Aksi: Klik Hardware Back Button</td>
+      <td style="text-align:left">Aktif: Activity 1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Stack push: Activity 1 [ <b>onPause() </b>&#x2192; <b>onStop() </b>]</td>
+      <td
+      style="text-align:left">Stack pop: Activity 2: [ <b>onPause() </b>&#x2192; <b>onStop()</b>&#x2192; <b>onDestroy()  </b>]</td>
+        <td
+        style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
+
