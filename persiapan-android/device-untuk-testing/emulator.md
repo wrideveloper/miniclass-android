@@ -1,16 +1,16 @@
 # Emulator
 
-Android Emulator adalah mesin android virtual atau biasa disebut AVD (Android Virtual Device) yang merepresentasikan suatu perangkat android tertentu di komputer anda tanpa harus memiliki perangkat aslinya.
+Android Emulator adalah mesin android virtual atau biasa disebut AVD \(Android Virtual Device\) yang merepresentasikan suatu perangkat android tertentu di komputer anda tanpa harus memiliki perangkat aslinya.
 
 ## Membuat & Mengelola Android Emulator di Android Studio
 
-Android Studio sudah menyediakan sebuah tool yang mana kita dapat membuat atau mengelola Android Emulator, tool tersebut ialah Android Virtual Device(AVD). Terdapat 3 cara membuka AVD di Android Studio. 
+Android Studio sudah menyediakan sebuah tool yang mana kita dapat membuat atau mengelola Android Emulator, tool tersebut ialah Android Virtual Device\(AVD\). Terdapat 3 cara membuka AVD di Android Studio.
 
 Pertama melalui Welcome Wizard Android Studio, di bagian Configure pilih AVD Manager
 
-![Melalui Welcome Wizard Android Studio](https://user-images.githubusercontent.com/52988155/109598864-bf2c1400-7b4c-11eb-9469-ac9cb3287655.png) 
+![Melalui Welcome Wizard Android Studio](https://user-images.githubusercontent.com/52988155/109598864-bf2c1400-7b4c-11eb-9469-ac9cb3287655.png)
 
-Kedua melalui menu Tools pada halaman Project Android Studio, Tools > AVD Manager
+Kedua melalui menu Tools pada halaman Project Android Studio, Tools &gt; AVD Manager
 
 ![Melalui Menu Tools](https://user-images.githubusercontent.com/52988155/109599203-6315bf80-7b4d-11eb-8bf5-1a35f7fae1ab.png)
 
@@ -18,11 +18,12 @@ Ketiga melalui Toolbar Android Studio, AVD Manager berada di nomor empat dari se
 
 ![Melalui Toolbar](https://user-images.githubusercontent.com/52988155/109599563-fa7b1280-7b4d-11eb-924a-646fe4bd6661.png)
 
-Setelah masuk pada AVD Manager, akan ditampilkan daftar emulator yang pernah dibuat. Pada bagian awal akan ditampilkan satu buah emulator yang mana emulator tersebut dibuat ketika proses penginstallan Android Studio. 
+Setelah masuk pada AVD Manager, akan ditampilkan daftar emulator yang pernah dibuat. Pada bagian awal akan ditampilkan satu buah emulator yang mana emulator tersebut dibuat ketika proses penginstallan Android Studio.
 
 ![AVD Manager](https://user-images.githubusercontent.com/52988155/109599704-39a96380-7b4e-11eb-80ac-310b448a60a7.png)
 
 Kita dapat menggunakan emulator yang sudah ada pada AVD Manager atau jika ingin membuat emulator baru bisa mengikuti langkah - langkah berikut:
+
 * Klik tombol Create Virtual Device yang ada di bagian kiri bawah
 
 ![Klik Create Virtual Device](https://user-images.githubusercontent.com/52988155/109600262-627e2880-7b4f-11eb-8d82-ded9a7cc89e1.png)
@@ -51,7 +52,6 @@ Kita dapat menggunakan emulator yang sudah ada pada AVD Manager atau jika ingin 
 
 ![Menjalankan Emulator](https://user-images.githubusercontent.com/52988155/109602380-97d84580-7b52-11eb-9538-41ba3acaf7a8.png)
 
-
 ## Menjalankan Aplikasi dengan Android Emulator
 
 Untuk menjalankan Aplikasi yang sudah dibuat menggunakan Android Emulator, silahkan buka project Android menggunakan Android Studio, kemudian pada bagian toolbar pilih emulator yang akan digunakan untuk menjalankan Aplikasi.
@@ -59,3 +59,4 @@ Untuk menjalankan Aplikasi yang sudah dibuat menggunakan Android Emulator, silah
 ![Memilih Android Emulator](https://user-images.githubusercontent.com/52988155/109602655-1a610500-7b53-11eb-95f6-5eb49ad5fd99.png)
 
 Setelah memilih Android Emulator yang akan digunakan, klik tombol Play yang berada tepat di sebelah kanan toolbar untuk memilih emulator. And Congratulations... Your App will running on Android Emulator. 😄
+

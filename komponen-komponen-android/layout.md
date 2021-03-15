@@ -1,36 +1,30 @@
 # Layout pada Android
 
-Layout adalah suatu tampilan tata letak di android studio untuk mengatur penempatan text/gambar yang sudah terkonsep. Jadi layout di sini adalah bagian terpenting untuk memperindah tampilan pada aplikasi yang kita buat nyaman di lihat bagi pengguna. 
+Layout adalah suatu tampilan tata letak di android studio untuk mengatur penempatan text/gambar yang sudah terkonsep. Jadi layout di sini adalah bagian terpenting untuk memperindah tampilan pada aplikasi yang kita buat nyaman di lihat bagi pengguna.
 
 Terdapat 5 jenis layout pada android studio yang bisa digunakan untuk merancang tampilan aplikasi semenarik mungkin, yaitu:
-<ul>
-  <li>Linear Layout</li>
-  <li>Relative Layout</li>
-  <li>Table Layout</li>
-  <li>Frame Layout</li>
-  <li>Constraint Layout</li>
-</ul>
 
+* Linear Layout
+* Relative Layout
+* Table Layout
+* Frame Layout
+* Constraint Layout
 
 ## Linear Layout
 
-Linear Layout merupakan jenis layout yang menyejajarkan semua komponen yang akan digunakan dalam satu arah, yaitu horizontal atau vertikal. Linear Layout dibuka dengan tag ```<LinearLayout>``` dan ditutup dengan tag ```</LinearLayout>```. Untuk menentukan arah (horizontal atau vertikal) dari Linear Layout yaitu dengan menambahkan atribut ```android:orientation``` pada tag pembuka Linear Layout.
-
+Linear Layout merupakan jenis layout yang menyejajarkan semua komponen yang akan digunakan dalam satu arah, yaitu horizontal atau vertikal. Linear Layout dibuka dengan tag `<LinearLayout>` dan ditutup dengan tag `</LinearLayout>`. Untuk menentukan arah \(horizontal atau vertikal\) dari Linear Layout yaitu dengan menambahkan atribut `android:orientation` pada tag pembuka Linear Layout.
 
 ## Relative Layout
 
-Relative Layout merupakan jenis layout yang mana untuk pengaturan layoutnya secara relative (bebas) sehingga tidak sebatas horizontal atau vertikal saja. Untuk kode xml dari Relative Layout sendiri dibuka dengan tag ```<RelativeLayout>``` dan ditutup dengan tag ```</RelativeLayout>```.
-
+Relative Layout merupakan jenis layout yang mana untuk pengaturan layoutnya secara relative \(bebas\) sehingga tidak sebatas horizontal atau vertikal saja. Untuk kode xml dari Relative Layout sendiri dibuka dengan tag `<RelativeLayout>` dan ditutup dengan tag `</RelativeLayout>`.
 
 ## Table Layout
 
-Table Layout merupakan jenis layout yang digunakan untuk merancang tampilan menyerupai tabel yang mana terdiri dari baris dan kolom. Meskipun namanya Table Layout, layout ini tidak akan menampilkan garis kolom, baris, atau sel. Layout ini dibuka dengan tag ```<TableLayout>``` dan ditutup dengan tag ```</TableLayout>```.
-
+Table Layout merupakan jenis layout yang digunakan untuk merancang tampilan menyerupai tabel yang mana terdiri dari baris dan kolom. Meskipun namanya Table Layout, layout ini tidak akan menampilkan garis kolom, baris, atau sel. Layout ini dibuka dengan tag `<TableLayout>` dan ditutup dengan tag `</TableLayout>`.
 
 ## Frame Layout
 
-Frame Layout merupakan jenis layout yang dipergunakan jika menginginkan tampilan dengan komponen tumpang tindih. Misalnya ialah memasukkan komponen Button pada komponen Image. Tag pembuka dari layout ini yaitu ```<FrameLayout>``` dan penutupnya adalah ```</FrameLayout>```.
-
+Frame Layout merupakan jenis layout yang dipergunakan jika menginginkan tampilan dengan komponen tumpang tindih. Misalnya ialah memasukkan komponen Button pada komponen Image. Tag pembuka dari layout ini yaitu `<FrameLayout>` dan penutupnya adalah `</FrameLayout>`.
 
 ## Constraint Layout
 

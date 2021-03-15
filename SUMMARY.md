@@ -21,7 +21,7 @@
 
 ## Android Activity
 
-* [Definisi Activity](android-activity/definisi-activity.md)
+* [Activity](android-activity/definisi-activity.md)
 * [Activity Lifecycle](android-activity/activity-lifecycle.md)
 * [Android Logging](android-activity/log.md)
 
