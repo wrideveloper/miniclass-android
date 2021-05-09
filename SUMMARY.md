@@ -39,7 +39,6 @@
 
 ## List
 
-* [Definisi List](list/definisi-list.md)
-* [ListView vs RecyclerView](list/listview-vs-recyclerview.md)
-* [Layout pada RecyclerView](list/layout-pada-recyclerview.md)
+* [List & RecyclerView](list/definisi-list.md)
+* [Praktik Model List Pada RecyclerView](list/layout-pada-recyclerview.md)
 
