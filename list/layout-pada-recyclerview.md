@@ -10,7 +10,9 @@ description: >-
 
 ## Aplikasi Kontak
 
-Aplikasi kontak yang merupakan aplikasi _default_ yang harus ada di HP Androidmu merupakan salah satu aplikasi yang menerapkan RecyclerView sederhana untuk menampilkan _list-list_ kontak. Kali ini, Kamu akan mencoba untuk membuat aplikasi serupa yang menampilkan data-data kontak statis dan detail kontak tersebut seperti contoh di bawah:
+Aplikasi kontak yang merupakan aplikasi _default_ yang harus ada di HP Androidmu merupakan salah satu aplikasi yang menerapkan RecyclerView sederhana untuk menampilkan _list-list_ kontak. Kali ini, Kamu akan mencoba untuk membuat aplikasi serupa yang menampilkan data-data kontak statis dan detail kontak tersebut seperti contoh di bawah.
+
+![](../.gitbook/assets/ezgif.com-gif-maker-2-%20%281%29.gif)
 
 ### Alur
 
